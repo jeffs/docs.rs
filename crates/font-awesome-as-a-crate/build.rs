@@ -33,7 +33,7 @@ fn write_fontawesome_sprite() {
         ("regular", "Regular"),
         ("solid", "Solid"),
     ] {
-        let dir = read_dir(Path::new("fontawesome-free-6.2.0-desktop/svgs").join(dirname)).unwrap();
+        let dir = read_dir(Path::new("fontawesome-free-7.1.0-desktop/svgs").join(dirname)).unwrap();
         let mut data = String::new();
         for file in dir {
             let file = file.expect("fontawesome directory access");
